@@ -19,6 +19,7 @@ namespace Quanlydoco
             InitializeComponent();
         }
 
+
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -70,6 +71,31 @@ namespace Quanlydoco
             {
                 Application.Exit();
             }
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void lnkQuenMatKhau_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FormQuenMatKhau frm = new FormQuenMatKhau();
+            frm.FormClosed += (s, args) => this.Show();
+            this.Hide();
+            frm.Show();
+        }
+        private void btnRegister_Click(object sender, EventArgs e)
+        {
+            FormDangKy frm = new FormDangKy();
+            frm.FormClosed += (s, args) => this.Show();
+            this.Hide();
+            frm.Show();
         }
     }
 }

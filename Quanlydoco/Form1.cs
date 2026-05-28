@@ -64,5 +64,15 @@ namespace Quanlydoco
             UC_DauGia ucDauGia = new UC_DauGia();
             HienThiGiaoDien(ucDauGia);
         }
+
+        private void lblWelcomeTitle_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblWelcomeSub_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
